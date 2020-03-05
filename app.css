@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+  
+*{box-sizing: border-box;}
+/*label{display: none;}*/
+/*label { float: left; width: 9em; margin-right: 1em; }*/
+header{
+  display: flex;
+  color: white;
+  justify-content: left;
+  font-size: 20px;  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+body{
+      background-color: blue;
+      /*display: flex;*/
+      /*flex-direction: column;*/
+      height: 100vh;
+      /*justify-content: space-between;*/
+      /*background-image: url("img/main.jpg");*/
+      background-size: 100%;
+      background-repeat: no-repeat;
+      /*background-attachment: fixed;*/
+      /*background-position: center;*/
+}
+#introTag{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      }
+#topIntro{
+      color: white;
+      font-size: 30px;
+      font-family: 'Roboto', sans-serif;
+      text-shadow: 5px 5px black;
+      padding-bottom: 10px;
+}
+#bottomIntro{
+      color: black;
+      font-size: 85px;
+      font-family: 'Satisfy', cursive;
+      text-shadow: 1px 1px white;
+      padding-bottom: 10px;
+}
+#mainIntro{
+     color: white;
+      font-size: 28px;
+      font-family: 'Roboto', sans-serif;
+      text-shadow: 8px 8px black;
+      padding-bottom: 10px;
+      }
+#logo{
+      background: url("img/catcher.png");
+      width: 60px;
+      height: 60px;    
+      padding-top: 10px;
+}
+#signup-title{
+      color: white;
+      text-decoration: underline; 
+      font-size: 40px;
+      font-family: 'Satisfy', cursive;
+      /*float: right; margin-right: -0.5em;*/
+}
+#signup-form{
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+}
+input{
+    width: 100%;
+    display: block;
+    /*margin-top: 1rem;*/
+    margin-bottom: 0.5rem;
+    /*padding: 0.5rem;*/
+}
+
+/*#createButton { float: right; width: 9em; margin-right: -2.5em; }*/
+#login-title{
+      color: white;
+      text-decoration: underline;
+      font-size: 40px; 
+      font-family: 'Satisfy', cursive;
+}
+#login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+#form-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      transform: translateY(-130px);
+
+}
+/*#enterButton{ float: left; width: 9em; margin-right: 0em;}*/
+footer{
+      /*display: flex;*/
+      color: white;
+      position: absolute;
+      bottom: 0;
+      width: 200px;
+      margin: 1rem;
+  }
+
