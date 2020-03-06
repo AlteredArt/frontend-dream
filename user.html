@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="user.js" defer></script>
     <link rel="stylesheet" href="user.css">
-  <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">   
     <title>Your Dream Journal!</title>
-    
 </head>
 <body>
       <header>
@@ -26,39 +25,34 @@
                   <input id="desTag" type="text" name="description" placeholder="Description">
                   <input type="text" name="mood" placeholder="Enter Mood (1:Bad--5:Fantastic)">
                   <input type="submit" value="Commit"/>
-          </form>
-        </div>
+                </form>
+              </div>
         </div>
         <div id="introTag">
           <h3 id="topIntro">Welcome to your</h3>
           <h1 id="bottomIntro">Dream Journal</h1>
           <img src="img/catcher.png" id="logo">
         </div>
-         
-
       <div id="box">
-        <p>Date: <span id="datetime"></span></p>
+          <p>Date: <span id="datetime"></span></p>
         <script>
           var dt = new Date();
           document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
         </script>
-        <table cellpadding="0" cellspacing="0" border="0" width="128"><tr><td align="center"><a href="https://www.moonconnection.com" target="mc_moon_ph"><img src="https://www.moonmodule.com/cs/dm/vn.gif" width="128" height="196" border="0" alt="" /></a><div style="position:relative;width:128px;"><div style="position:absolute;top:-20px;left:6px;background:#000000;width:116px;text-align:center;"><a href="https://www.moonconnection.com/moon_phases.phtml" target="mc_moon_ph"><font color="#7F7F7F" size="1" face="arial,helvetica,sans-serif"><span style="color:#7F7F7F;font-family:arial,helvetica,sans-serif;font-size:10px;">moon phase info</span></font></a></div></div></td></tr></table>
+          <table cellpadding="0" cellspacing="0" border="0" width="128"><tr><td align="center"><a href="https://www.moonconnection.com" target="mc_moon_ph"><img src="https://www.moonmodule.com/cs/dm/vn.gif" width="128" height="196" border="0" alt="" /></a><div style="position:relative;width:128px;"><div style="position:absolute;top:-20px;left:6px;background:#000000;width:116px;text-align:center;"><a href="https://www.moonconnection.com/moon_phases.phtml" target="mc_moon_ph"><font color="#7F7F7F" size="1" face="arial,helvetica,sans-serif"><span style="color:#7F7F7F;font-family:arial,helvetica,sans-serif;font-size:10px;">moon phase info</span></font></a></div></div></td></tr></table>
         </div>
       </header>
-
       <main>
-
-        
+        <div id="card-container">
           <div class="card">
             <div class="card-text">
                 <span class="date">Today's Date</span>
                 <p id="descriptionTag"> Describe your dream!</p>
-                  <li id="moodTag">Whats' your Mood?</li>
-        </div>       
-      </div>
-  
-    </main>
-     <footer id="foot"><p>Made By: Jared Matta</p></footer>
+                <li id="moodTag">Whats' your Mood?</li>
+            </div> 
+          </div>
+        </div>
+      </main>
 </body>
 </html>
 

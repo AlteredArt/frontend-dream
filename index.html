@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="app.js" defer></script>
     <link rel="stylesheet" href="app.css">
-	<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+	  <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
     <title>The Dream Journal!</title>
 </head>
 <body>
-	
     <header>
 		<p>Date: <span id="datetime"></span></p>
 		<script>
@@ -27,14 +26,14 @@
     			<p>all your dreams are</p>
     			<p>waiting for you. Start by</p>
     			<p>entering your personal dream journal,</p>
-    			<p>geared to helping you learn</p>
-    			<p>the daily</p>
-    			<p>constellations!</p>
+    			<p>designed to help you understand</p>
+    			<p>your nightly</p>
+    			<p>dreams!</p>
     			<img src="img/catcher.png" id="logo">
     		</div>
     		</div>
     		<div id="form-container">
-    			<form id="signup-form" action="http://localhost:3000/users" method="POST">
+    			<form id="signup-form">
     				<label for="Sign-Up" id="signup-title">Sign-Up</label>
       				<input type="text" placeholder="Name" name="name">
       				<input type="text" placeholder="Username" name="username">
@@ -44,7 +43,7 @@
   			
     			<form id="login-form" action="http://localhost:3000/users" method="POST">
     				<label for="Login" id="login-title">Login</label>
-      				<input type="text" placeholder="Username" name="username">
+      				<input id="username" type="text" placeholder="Username" name="username">
       				<input type="text" placeholder="Password" name="password">
       				<button type="submit" id="enterButton">Enter</button>
     			</form>
